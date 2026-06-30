@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ’¸ Expense Management System
+# 💸 Expense Management System
 
 **Enterprise Expense Tracking with Approval Workflows & Budget Analytics**
 
@@ -16,26 +16,17 @@ A comprehensive expense management system with multi-step approval workflows, de
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ“ **Expense Submission** - Create claims with categories, amounts, merchants, and receipt attachments
-- âœ… **Approval Workflow** - Draft â†’ Submitted â†’ Approved/Rejected â†’ Reimbursed pipeline
-- ðŸ’° **Budget Tracking** - Per-department annual budgets with real-time spent/remaining tracking
-- ðŸ“Š **Analytics Dashboard** - Category breakdowns, monthly trends, department comparisons
-- ðŸ§¾ **Receipt Management** - Upload and attach receipts to expense claims
-- ðŸ·ï¸ **10+ Categories** - Travel, Meals, Software, Office, Training, Conference, etc.
-- ðŸ” **Search & Filter** - Filter by status, category, date range, department with pagination
+- 📝 **Expense Submission** - Create claims with categories, amounts, merchants, and receipt attachments
+- ✅ **Approval Workflow** - Draft → Submitted → Approved/Rejected → Reimbursed pipeline
+- 💰 **Budget Tracking** - Per-department annual budgets with real-time spent/remaining tracking
+- 📊 **Analytics Dashboard** - Category breakdowns, monthly trends, department comparisons
+- 🧾 **Receipt Management** - Upload and attach receipts to expense claims
+- 🏷️ **10+ Categories** - Travel, Meals, Software, Office, Training, Conference, etc.
+- 🔍 **Search & Filter** - Filter by status, category, date range, department with pagination
 
-## ðŸ—ï¸ Architecture
-
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ React Frontendâ”‚â”€â”€â”€â”€â–¶â”‚ Express.js API   â”‚â”€â”€â”€â”€â–¶â”‚ PostgreSQL   â”‚
-â”‚ (Dashboard)   â”‚     â”‚ (JWT + Workflow) â”‚     â”‚ (3 tables)   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
-
-## ðŸ“¡ API Endpoints
+## 📡 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -48,7 +39,7 @@ A comprehensive expense management system with multi-step approval workflows, de
 | GET | `/api/budgets` | Department budgets |
 | GET | `/api/reports/summary` | Expense analytics |
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/KHALEDNOAMAN/Expense-Management-System.git
@@ -58,8 +49,8 @@ npx knex migrate:latest && npx knex seed:run
 npm run dev
 ```
 
-## ðŸ“ License
+## 📝 License
 MIT License - see [LICENSE](LICENSE) file.
 
 ---
-<div align="center">Built with â¤ï¸ during internship at EduTech Yazilim A.S. - Istanbul, Turkey</div>
+<div align="center">Built with ❤️ during internship at EduTech Yazilim A.S. - Istanbul, Turkey</div>
